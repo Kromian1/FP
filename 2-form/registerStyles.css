@@ -1,0 +1,33 @@
+body {
+    background-color: #F39494;
+}
+
+main {
+    background-color: #FFFEFE;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.in {
+    color: #666666;
+    font-size: 18px;
+}
+
+.hrefin {
+    font-size: 18px;
+}
+
+input {
+    color: #F5F5F5;
+}
+
+button {
+    background-color: #089FE0;
+}
+
+.terms {
+    color: #666666;
+    font-size: 14px;
+}

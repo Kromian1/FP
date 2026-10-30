@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="registerStyles.css">
     <title>Регистрация</title>
 </head>
 <body>
     <main>
         <h1>Регистрация</h1>
         <div>
-            Уже есть аккаунт? <a href="#">Войти</a>
+            <span class="in">Уже есть аккаунт?</span> <a class="hrefin" href="#">Войти</a>
         </div>
         <form action="/registration" method="post">
             <div>
@@ -18,8 +19,8 @@
             <div>
                 <input type="text" name="name" id="name" placeholder="Имя">
                 <label for="name"></label>
-                <input type="text" name="firstname" id="firstname" placeholder="Фамилия">
-                <label for="firstname"></label>
+                <input type="text" name="lastname" id="lastname" placeholder="Фамилия">
+                <label for="lastname"></label>
             </div>
             <div>
                 <input type="email" name="email" id="email" placeholder="E-mail" required>

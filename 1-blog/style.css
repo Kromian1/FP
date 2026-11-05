@@ -1,0 +1,34 @@
+.body {
+    background-color: #374151;
+    font-family: Roboto, sans-serif;
+    color: white;
+}
+
+.desc {
+    font-size: 14px;
+}
+
+.h1Hero {
+    font-size: 24px;
+    line-height: 38px;
+}
+
+.author {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.heroP {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.p {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.copyrite {
+    font-size: 16px;
+    line-height: 28px;
+}

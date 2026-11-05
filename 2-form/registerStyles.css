@@ -20,7 +20,8 @@ h1 {
 }
 
 input {
-    color: #F5F5F5;
+    background-color: #F5F5F5;
+    color: #999999;
 }
 
 button {

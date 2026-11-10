@@ -1,21 +1,42 @@
-.body {
+* {
     background-color: #374151;
     font-family: Roboto, sans-serif;
     color: white;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+body {
+    margin: 0 272px;
+}
+
+.header>ul>li::marker  {
+    content: none;
+}
+
+.header {
+    margin: 80px 180px;
 }
 
 .desc {
     font-size: 14px;
+    margin-bottom: 14px;
 }
 
 .h1Hero {
     font-size: 24px;
     line-height: 38px;
+    margin-bottom: 30px;
 }
 
 .author {
     font-size: 16px;
     line-height: 28px;
+    margin-bottom: 28px;
 }
 
 .heroP {
@@ -31,4 +52,19 @@
 .copyrite {
     font-size: 16px;
     line-height: 28px;
+}
+
+#search {
+    font-size: 16px;
+    line-height: 100%;
+    background-color: rgba(31, 41, 55, 0.6);
+    border: 1px solid;
+    border-radius: 16px;
+    padding: 16px 8px;
+}
+
+#heroImage {
+    width: 896px;
+    height: 594px;
+    margin-bottom: 69px;
 }
